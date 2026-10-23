@@ -1,18 +1,17 @@
 :root {
-  --font-display: 'Fraunces', Georgia, serif;
-  --font-sans: 'Outfit', 'Segoe UI', sans-serif;
+  --font-display: 'Cormorant Garamond', Georgia, serif;
+  --font-sans: 'Raleway', 'Segoe UI', sans-serif;
 
-  --ink: #12241d;
-  --ink-soft: #2a4036;
-  --muted: #5a6e64;
-  --paper: #f3f6f2;
+  --ink: #141414;
+  --ink-soft: #2c2c2c;
+  --muted: #5c5c5c;
+  --paper: #f7f5f2;
   --cream: #f5f0e6;
-  --moss: #3d6b54;
-  --moss-deep: #1a3a2f;
-  --gold: #c4a574;
-  --gold-bright: #d4b888;
-  --gold-deep: #9a7a4a;
-  --sky: #5a8aa0;
+  --soil: #8d5e2f;
+  --soil-deep: #6e4723;
+  --soil-bright: #a06d3a;
+  --field: #1a1a1a;
+  --sky: #5a7a8a;
 
   font-family: var(--font-sans);
   font-synthesis: none;
@@ -45,6 +44,6 @@ img {
 
 a:focus-visible,
 .btn:focus-visible {
-  outline: 2px solid var(--gold);
+  outline: 2px solid var(--soil);
   outline-offset: 3px;
 }
